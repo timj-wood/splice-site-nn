@@ -39,12 +39,13 @@ blog/post_outline.md           skeleton for the accompanying blog post
 ## Running it
 
 ```bash
-python -m venv .venv && source .venv/bin/activate     # optional
+conda create -n splice python=3.11
+conda activate splice
 pip install -r requirements.txt
-jupyter lab                                           # then open notebooks/01_… and 02_…
+jupyter lab
 ```
 
-Both notebooks run in well under a minute on a laptop CPU. Random seeds are fixed, so reproducibility should be exact.
+Both notebooks run in under a minute on my laptop (Macbook Air M4). Random seeds are fixed, so reproducibility should be exact.
 
 ## Resources used
 
