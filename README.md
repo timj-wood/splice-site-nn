@@ -44,7 +44,7 @@ pip install -r requirements.txt
 jupyter lab                                           # then open notebooks/01_… and 02_…
 ```
 
-Both notebooks run in well under a minute on a laptop CPU. Random seeds are fixed, so reproducibility should be exact.
+Both notebooks run in under a minute on my laptop (Macbook Air M4). Random seeds are fixed, so reproducibility should be exact.
 
 ## Resources used
 
