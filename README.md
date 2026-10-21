@@ -1,6 +1,6 @@
 # Can a tiny neural network learn where a gene is spliced?
 
-A beginner's machine-learning mini-project in bioinformatics: from logistic regression, to a single
+This is a beginner's machine-learning mini-project in bioinformatics, starting from logistic regression, to a single
 artificial neuron trained with hand-written gradient descent, to a small multi-layer perceptron in
 PyTorch — all on 3,190 short DNA sequences from the classic UCI splice-junction dataset.
 
@@ -20,8 +20,8 @@ Nobody told it about biology, yet the strongest weights are **AG** just before t
 | same neuron via PyTorch autograd | 0.934 (identical weights) |
 | MLP, one hidden layer of 32 ReLU units | 0.940 |
 
-The headline isn't the last row. It's that (1) the hand-derived gradient and autograd give the same
-answer to 7 decimal places, so backpropagation stops being a black box, and (2) a model with no
+Two significant results from this data: (1) the hand-derived gradient and autograd give the same
+answer to 7 decimal places, so backpropagation stops being a black box; (2) a model with no
 biological prior rediscovers the GT…AG consensus. The MLP's loss curve also shows textbook
 overfitting after a few epochs — a useful thing to see for yourself.
 
@@ -44,14 +44,13 @@ pip install -r requirements.txt
 jupyter lab                                           # then open notebooks/01_… and 02_…
 ```
 
-Both notebooks run in well under a minute on a laptop CPU. Random seeds are fixed, so you should
-reproduce the numbers above exactly (PyTorch may differ in the last decimal place across versions).
+Both notebooks run in well under a minute on a laptop CPU. Random seeds are fixed, so reproducibility should be exact.
 
-## What this builds on
+## Resources used
 
 * Jean Golding Institute, [Introduction to Data Analysis in Python (Part 2)](https://bristol-training.github.io/data-analysis-python-2/) — notebook 01 uses nothing beyond this course.
-* Jean Golding Institute, [Introduction to AI](https://bristol-training.github.io/intro-to-ai/) — notebook 02 follows its ladder: perceptron → activation → gradient descent → backprop → MLP.
-* Steven Morse, [Neural Networks for a beginner (Part I: theory)](https://stmorse.github.io/journal/Beginner-NN-Part-I.html) — the maths. Morse's post is about regression with squared error; notebook 02 swaps in a sigmoid/softmax output and cross-entropy loss for classification and shows how the chain rule simplifies.
+* Jean Golding Institute, [Introduction to AI](https://bristol-training.github.io/intro-to-ai/) — notebook 02: perceptron → activation → gradient descent → backprop → MLP.
+* Steven Morse, [Neural Networks for a beginner (Part I: theory)](https://stmorse.github.io/journal/Beginner-NN-Part-I.html) — a good walkthrough of the maths. Mainly covers regression with squared error; notebook 02 swaps in a sigmoid/softmax output and cross-entropy loss for classification and shows how the chain rule simplifies.
 * Noordewier, Towell & Shavlik (1991), *Training knowledge-based neural networks to recognize genes in DNA sequences*, NeurIPS — the paper the dataset was built for.
 
 ## Data
