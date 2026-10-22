@@ -1,4 +1,4 @@
-# Can a tiny neural network learn where a gene is spliced?
+# Can a mini neural network learn where a gene is spliced?
 
 This is a beginner's machine-learning mini-project in bioinformatics, starting from logistic regression, to a single
 artificial neuron trained with hand-written gradient descent, to a small multi-layer perceptron in
