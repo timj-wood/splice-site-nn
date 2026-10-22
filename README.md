@@ -6,9 +6,9 @@ PyTorch — all on 3,190 short DNA sequences from the classic UCI splice-junctio
 
 ![What a single neuron learned](figures/02_neuron_weights.png)
 
-*The 240 weights of one neuron trained to spot a splice junction, laid out by position and base.
-Nobody told it about biology, yet the strongest weights are **AG** just before the junction and
-**GT** just after — the textbook intron boundary.*
+The 240 weights of one neuron trained to spot a splice junction, laid out by position and base.
+Despite no previous biological knowledge, the strongest weights were found to be **AG** just before the junction and
+**GT** just after, which is the standard intron boundary.
 
 ## Results
 
