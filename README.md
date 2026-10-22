@@ -25,16 +25,13 @@ answer to 7 decimal places, so backpropagation stops being a black box; (2) a mo
 biological prior rediscovers the GT…AG consensus. The MLP's loss curve also shows textbook
 overfitting after a few epochs — a useful thing to see for yourself.
 
-## Contents
+## Files
 
-```
-data/splice.data               the dataset (UCI, CC BY 4.0) — see data/README.md
-src/splice_utils.py            load the file, one-hot encode sequences, name features
-notebooks/01_baseline_sklearn.ipynb     logistic regression + kNN baseline, weight heatmap
-notebooks/02_perceptron_to_mlp.ipynb    neuron by hand → autograd → MLP → position importance
-figures/                       every plot the notebooks produce
-blog/post_outline.md           skeleton for the accompanying blog post
-```
+- `notebooks/01_baseline_sklearn.ipynb` – one-hot encoding, logistic regression and kNN baseline, weight heatmap
+- `notebooks/02_perceptron_to_mlp.ipynb` – a neuron by hand, the same neuron with autograd, then the MLP
+- `src/splice_utils.py` – load the data and one-hot encode sequences
+- `data/splice.data` – the UCI dataset (see `data/README.md`)
+- `figures/` – figures produced throughout
 
 ## Running it
 
