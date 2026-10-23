@@ -44,13 +44,6 @@ jupyter lab
 
 Both notebooks run in ~1 minute on my laptop (Macbook Air M4). Random seeds are fixed, so reproducibility should be exact.
 
-## Resources used
-
-* Jean Golding Institute, [Introduction to Data Analysis in Python (Part 2)](https://bristol-training.github.io/data-analysis-python-2/) — notebook 01 uses nothing beyond this course.
-* Jean Golding Institute, [Introduction to AI](https://bristol-training.github.io/intro-to-ai/) — notebook 02: perceptron → activation → gradient descent → backprop → MLP.
-* Steven Morse, [Neural Networks for a beginner (Part I: theory)](https://stmorse.github.io/journal/Beginner-NN-Part-I.html) — a good walkthrough of the maths. Mainly covers regression with squared error; notebook 02 swaps in a sigmoid/softmax output and cross-entropy loss for classification and shows how the chain rule simplifies.
-* Noordewier, Towell & Shavlik (1991), *Training knowledge-based neural networks to recognize genes in DNA sequences*, NeurIPS — the paper which produced the dataset.
-
 ## Data
 
 Molecular Biology (Splice-junction Gene Sequences), UCI Machine Learning Repository,
