@@ -2,7 +2,7 @@
 
 This is a beginner's machine-learning mini-project in bioinformatics, starting from logistic regression, to a single
 artificial neuron trained with hand-written gradient descent, to a small multi-layer perceptron in
-PyTorch — all on 3,190 short DNA sequences from the classic UCI splice-junction dataset.
+PyTorch — all using 3,190 short DNA sequences from the UCI splice-junction dataset. The writeup is on my [blog](https://timj-wood.github.io/posts/splice-site-neural-network.html) 
 
 ![What a single neuron learned](figures/02_neuron_weights.png)
 
