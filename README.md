@@ -23,7 +23,7 @@ Despite no previous biological knowledge, the strongest weights were found to be
 Two significant results from this data: (1) the hand-derived gradient and autograd give the same
 answer to 7 decimal places, so backpropagation stops being a black box; (2) a model with no
 biological prior rediscovers the GT…AG consensus. The MLP's loss curve also shows textbook
-overfitting after a few epochs — a useful thing to see for yourself.
+overfitting after a few epochs.
 
 ## Files
 
