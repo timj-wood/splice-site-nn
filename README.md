@@ -27,7 +27,7 @@ overfitting after a few epochs.
 
 ## Files
 
-- `notebooks/01_baseline_sklearn.ipynb` – one-hot encoding, logistic regression and kNN baseline, weight heatmap
+- `notebooks/01_baselines` – one-hot encoding, logistic regression and kNN baseline, weight heatmap
 - `notebooks/02_perceptron_to_mlp.ipynb` – a neuron by hand, the same neuron with autograd, then the MLP
 - `src/splice_utils.py` – load the data and one-hot encode sequences
 - `data/splice.data` – the UCI dataset (see `data/README.md`)
